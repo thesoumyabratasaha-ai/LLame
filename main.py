@@ -11,7 +11,7 @@ data={
     "stream":False,
     "system":personality}
 
-while(True):    
+while(True):
     data["prompt"]=input("\nEnter your prompt: ")           #accepting user input
 
     if data["prompt"] == "exit":
